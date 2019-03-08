@@ -1,0 +1,37 @@
+<app>
+  <div class="wrapper">
+    <h1>
+      <i class="fas fa-question-circle"></i> Simple Seed
+    </h1>
+    <div class="main">
+      <button onclick={clickMe}>Click me</button>
+    </div>
+  </div>
+
+  <style>
+    h1 {
+      border-bottom: black 1px solid;
+    }
+    .main {
+      margin: 10px;
+    }
+  </style>
+
+  <script>
+    console.log('app');
+    let tag = this;
+
+    this.on('mount', function () {
+      console.log('app mount', this._riot_id)
+    });
+
+    tag.clickMe = (e) => {
+      swal({
+        type: 'info',
+        title: 'Help',
+        animation: false,
+        text: "Some info message"
+      });
+    }
+  </script>
+</app>

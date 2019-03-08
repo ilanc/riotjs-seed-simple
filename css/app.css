@@ -1,0 +1,33 @@
+* {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-shadow: none !important;
+  outline: none !important;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #dadada;
+  font-family: "Open Sans", sans-serif;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiase;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+}
+
+.wrapper {
+  width: 960px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}

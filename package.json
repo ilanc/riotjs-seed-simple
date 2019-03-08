@@ -1,0 +1,17 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "Static UX app with CDN modules",
+  "main": "app.js",
+  "scripts": {
+    "packages-version-check": "npm outdated || true",
+    "packages-audit": "npm audit || true",
+    "packages-audit-fix": "npm audit fix || true",
+    "start": "live-server --port=9001"
+  },
+  "author": "Ilan Copelyn",
+  "license": "spike",
+  "devDependencies": {
+    "live-server": "1.2.0"
+  }
+}

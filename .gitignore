@@ -1,0 +1,7 @@
+dist/*
+!dist/app.js
+!dist/rsync-exclude.txt
+node_modules/
+uploads/
+.DS_Store
+*.log
